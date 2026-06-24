@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/23dbb71f75.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="landing">
+      <nav>
+        <div class="nav__container">
+          <img class="logo" src="./logo-car-rental.jpg" alt="" />
+          <ul class="nav__links">
+            <li><a href="#" class="nav__link">Home</a></li>
+            <li><a href="#" class="nav__link no__cursor">Contact Us</a></li>
+            <li><a href="#" class="nav__link no__cursor">Book Now</a></li>
+          </ul>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
+              </li>
+              <li class="menu__list">
+                <a href="#features" class="menu__link" onclick="closeMenu()"
+                  >Books</a
+                >
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link no--cursor" onclick="closeMenu()"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div class="container">
+          <div class="row header__row">
+            <div class="header__description">
+              <h1 class="header__title">
+                Find Your <span class="black">Perfect Car</span>
+              </h1>
+              <p class="header__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                fuga doloremque non mollitia, quo perferendis!
+              </p>
+              <div class="header__search">
+                <input
+                  type="text"
+                  class="header__search--bar"
+                  placeholder="Search HERE"
+                />
+                <button class="header__search--btn">FIND</button>
+              </div>
+            </div>
+            <figure>
+              <img
+                src="https://cdn.imgbin.com/15/24/5/imgbin-car-rental-luxury-vehicle-bmw-travel-car-rT9aTjPbkgsghi6z3Tgscustj.jpg"
+                alt=""
+                class="header__img"
+              />
+            </figure>
+          </div>
+        </div>
+      </header>
+    </section>
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <h2 class="section__title">
+            Ride In <span class="black">LUXURY</span> in Our
+            <span class="black">Top Cars</span>
+          </h2>
+          <div class="cars">
+            <div class="car">
+              <figure class="car__img--wrapper">
+                <img src="./Luxury__car--1.webp" alt="" class="car__img" />
+              </figure>
+              <div class="car__title">Porsche GT3RS</div>
+              <div class="car__price">
+                <span class="car__price--normal">$650.00</span> $499.99 /Day
+              </div>
+            </div>
+            <div class="car">
+              <figure class="car__img--wrapper">
+                <img
+                  src="./Luxury__cars/Luxury__car--2.jpg"
+                  alt=""
+                  class="car__img"
+                />
+              </figure>
+              <div class="car__title">Corvette ZR1</div>
+              <div class="car__price">
+                <span class="car__price--normal">$550.00</span> $299.99 /Day
+              </div>
+            </div>
+            <div class="car">
+              <figure class="car__img--wrapper">
+                <img
+                  src="./Luxury__cars/Luxury__car--3.avif"
+                  alt=""
+                  class="car__img"
+                />
+              </figure>
+              <div class="car__title">Mercedes Benz</div>
+              <div class="car__price">
+                <span class="car__price--normal">$450.00</span> $399.99 /Day
+              </div>
+            </div>
+            <div class="car">
+              <figure class="car__img--wrapper">
+                <img
+                  src="./Luxury__cars/Luxury__car--4.webp"
+                  alt=""
+                  class="car__img"
+                />
+              </figure>
+              <div class="car__title">Lotus Elise</div>
+              <div class="car__price">
+                <span class="car__price--normal">$550.00</span> $299.99 /Day
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Inventory">
+      <div class="container">
+        <div class="row">
+          <h2 class="section__title">
+            Browse Our <span class="black">Inventory</span>
+          </h2>
+          <div class="cars">
+            <div class="car">
+              <figure class="cars__img--wrapper">
+                <img
+                  src="./Luxury__cars/Luxury__car--5.webp"
+                  alt=""
+                  class="car__img"
+                />
+              </figure>
+              <div class="car__title">Lamborghini Hurican</div>
+              <div class="car__price">
+                <span class="car__price--normal">$850.00</span> $699.99 /Day
+              </div>
+            </div>
+            <div class="car">
+              <figure class="cars__img--wrapper">
+                <img
+                  src="./Luxury__cars/Luxury__car--5.jpg"
+                  alt=""
+                  class="car__img"
+                />
+              </figure>
+              <div class="car__title">Mercedes Benz C-class</div>
+              <div class="car__price">
+                <span class="car__price--normal">$350.00</span> $199.99 /Day
+              </div>
+            </div>
+            <div class="car">
+              <figure class="cars__img--wrapper">
+                <img
+                  src="./Luxury__cars/Luxury__car--6.jpg"
+                  alt=""
+                  class="car__img"
+                />
+              </figure>
+              <div class="car__title">Ferrari</div>
+              <div class="car__price">
+                <span class="car__price--normal">$1,650.00</span> $1,299.99 /Day
+              </div>
+            </div>
+            <div class="car">
+              <figure class="cars__img--wrapper">
+                <img
+                  src="./Luxury__cars/Luxury__car--8.avif"
+                  alt=""
+                  class="car__img"
+                />
+              </figure>
+              <div class="car__title">Porsche Caymen</div>
+              <div class="car__price">
+                <span class="car__price--normal">$550.00</span> $399.99 /Day
+              </div>
+            </div>
+            <div class="car">
+              <figure class="cars__img--wrapper">
+                <img
+                  src="./Luxury__cars/Luxury__car--9.jpg"
+                  alt=""
+                  class="car__img"
+                />
+              </figure>
+              <div class="car__title">Ford GT40</div>
+              <div class="car__price">
+                <span class="car__price--normal">$650.00</span> $499.99 /Day
+              </div>
+            </div>
+            <div class="car">
+              <figure class="cars__img--wrapper">
+                <img
+                  src="./Luxury__cars/Luxury__car--10.webp"
+                  alt=""
+                  class="car__img"
+                />
+              </figure>
+              <div class="car__title">Mclaren 765</div>
+              <div class="car__price">
+                <span class="car__price--normal">$850.00</span> $699.99 /Day
+              </div>
+            </div>
+            <div class="car">
+              <figure class="cars__img--wrapper">
+                <img
+                  src="./Luxury__cars/Luxury__car--11.avif"
+                  alt=""
+                  class="car__img"
+                />
+              </figure>
+              <div class="car__title">Aston Martin</div>
+              <div class="car__price">
+                <span class="car__price--normal">$550.00</span> $399.99 /Day
+              </div>
+            </div>
+            <div class="car">
+              <figure class="cars__img--wrapper">
+                <img
+                  src="./Luxury__cars/Luxury__car--12.webp"
+                  alt=""
+                  class="car__img"
+                />
+              </figure>
+              <div class="car__title">Cadillac CT5 Blackwing</div>
+              <div class="car__price">
+                <span class="car__price--normal">$650</span> $499.99 /Day
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo">
+            <img
+              src="./personal-logo.png"
+              class="footer__logo--img"
+              alt="Personal logo"
+            />
+          </figure>
+          <span class="footer__logo--popper">
+            TOP
+            <i class="fas fa-arrow-up"></i>
+          </span>
+        </a>
+        <div class="footer__social--list">
+          <a
+            href="https://google.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Github</a
+          >
+          <a
+            href="https://google.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a
+            href="mailto:overkill.489@gmail.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Email</a
+          >
+          <a
+            href="./Coming--soon__pic.jpg"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Resume</a
+          >
+        </div>
+        <div class="footer__copyright">Copyright © 2026 Jeremiah Austin</div>
+      </div>
+    </footer>
+  </body>
+</html>
