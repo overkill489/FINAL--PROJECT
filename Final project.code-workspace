@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Final project",
+			"path": "."
+		},
+		{
+			"name": "Luxury__cars",
+			"path": "../../../Downloads/Luxury__cars"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Final project"
+	}
+}
