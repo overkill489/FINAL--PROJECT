@@ -451,11 +451,7 @@ Plans
 .plan:nth-child(1) .plan__stripe,
 .plan:nth-child(1) .plan__button {
   color: #f7fafc;
-  background: linear-gradient(
-    115deg,
-    rgb(255, 255, 255) 0%,
-    rgb(0, 0, 0) 100%
-  );
+  background: linear-gradient(115deg, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 100%);
 }
 .plan__button {
   border-radius: 0.25rem;
@@ -1243,7 +1239,6 @@ Responsiveness
   }
 }
 
-
 @media (max-width: 768px) {
   .features {
     justify-content: center;
@@ -1281,6 +1276,10 @@ Responsiveness
   #steps .row,
   #testimonials .row {
     flex-direction: column;
+  }
+
+  .car {
+    width: 50%;
   }
 
   .step {
